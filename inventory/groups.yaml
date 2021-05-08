@@ -1,0 +1,25 @@
+---
+# groups.yaml file
+CE: 
+  data: 
+    prefix: CE
+
+PE: 
+  data: 
+    prefix: PE
+
+p: 
+  data: 
+    prefix: P
+
+juniper: 
+  platform: junos
+
+global: 
+  data: 
+    snmp_community: public 
+    grpc_port: 32768
+    name_servers:
+      - 8.8.8.8
+      - 8.8.8.4
+

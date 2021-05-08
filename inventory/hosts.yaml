@@ -1,0 +1,41 @@
+---
+# hosts.yaml file
+R1:
+  hostname: 10.221.22.71
+  groups:
+    - juniper
+    - CE
+  data:
+    bgp_source: 1.1.1.1
+
+R2:
+  hostname: 10.221.22.72
+  groups:
+    - juniper
+    - PE
+  data:
+    bgp_source: 2.2.2.2
+
+R3:
+  hostname: 10.221.22.73
+  groups:
+    - juniper
+    - P
+  data:
+    bgp_source: 3.3.3.3
+
+R4:
+  hostname: 10.221.22.74
+  groups:
+    - juniper
+    - PE
+  data:
+    bgp_source: 4.4.4.4
+
+R5:
+  hostname: 10.221.22.75
+  groups:
+    - juniper
+    - CE
+  data:
+    bgp_source: 5.5.5.5
